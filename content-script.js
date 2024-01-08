@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", (event) => {
   const imgdetector = new MutationObserver(mutations => {
-    let images = document.querySelector('img');
+    let images = document.querySelectorAll('img');
     if(images){
       for(let i = 0; i < images.length; i++){
           images[i].style = "pointer-events: auto;";
