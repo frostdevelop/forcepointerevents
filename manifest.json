@@ -3,10 +3,6 @@
   "name": "ForcePointerEvents",
   "version": "1.0",
   "description": "Forces pointer events onto images!",
-  "permissions": ["tabs"],
-  "background": {
-    "service_worker": "service-worker.js"
-  },
   "action": {
     "default_title": "Force Pointer Events!",
     "default_icon": {
